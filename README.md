@@ -2,10 +2,17 @@
 Repository that contains a WIP for the [Antepavilion 2019 Commission](http://antepavilion.org/).
 # Inspiration
 We have been working on the computational design of the pavilion based on the work done by [Tomohiro Tachi](http://www.tsg.ne.jp/TT/)
-![captura](https://user-images.githubusercontent.com/21000020/51935664-62d9f180-23d4-11e9-9d57-ecdbfc507159.JPG).
+![tachiinspiration](https://user-images.githubusercontent.com/21000020/51937630-1a710280-23d9-11e9-868e-15a2f83564ca.JPG)
 
-Our research lead us to create from a grid of points a discretized pattern that resembles the one above. From the pattern, we could derive what the 2D pattern created in 3D.
+Our research lead us to create from a grid of points a discretized pattern that resembles the one done by Tachi. From the pattern, we could derive what the 2D pattern created in 3D.
+
+![tachisfloorplan](https://user-images.githubusercontent.com/21000020/51937270-37f19c80-23d8-11e9-99b8-46d1d8126d76.JPG)
+
+(Here, the mountains are blue, and the valleys are red, this is an important step in setting the Kangaroo Solver for the origami folding.)
+
 ![tachis](https://user-images.githubusercontent.com/21000020/51936773-f14f7280-23d6-11e9-9de1-5f0f5e4f6234.png)
+
+(Mesh baked from Grasshopper to Rhino, than exported to Octane Standalone for rendering)
 
 This taught us how to modify the points that compose the grid to generate something that is visually appealing. At first we manually modified the grid to create patterns, later we developed an algorithm that could create similar results through the use of a heuristic evolutionary solver.
 # Tools
