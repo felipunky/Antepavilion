@@ -28,6 +28,8 @@ The genomes are the deformations that attractors such as points and nurbs curves
 # Iterations
 Through the process we created multiple designs here are some examples:
 
+This example can be found in this repository by the name PavilionOne.gh
+
 This is the 2D floor plan before the origami folding:
 
 ![paviliononefloorplan](https://user-images.githubusercontent.com/21000020/51992645-61afcf80-247b-11e9-9ef5-bb1b944068fd.JPG)
