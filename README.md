@@ -8,7 +8,7 @@ We have been working on the computational design of the pavilion based on the wo
 ![4115805159_af0db68fbd_o](https://user-images.githubusercontent.com/21000020/51990498-24494300-2477-11e9-9c79-ef02929f84d2.jpg)
 ![4116574802_3f3e2dfd46_o](https://user-images.githubusercontent.com/21000020/51990499-24494300-2477-11e9-8f7b-a33d7066764f.jpg)
 
-Our research lead us to create from a grid of points a discretized pattern that resembles the one done by Tachi. From the pattern, we could derive what the 2D pattern created in 3D.
+Our research lead us to create from a grid of points a discretized pattern that resembles the one done by Tachi. From the pattern, we could derive what the 2D pattern created in 3D. The file is self-contained in the TachisPavilion.gh in this same repository.
 
 ![tachisfloorplan](https://user-images.githubusercontent.com/21000020/51937270-37f19c80-23d8-11e9-99b8-46d1d8126d76.JPG)
 
