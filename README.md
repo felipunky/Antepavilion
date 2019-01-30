@@ -68,9 +68,9 @@ We connect the output of the CurveAttraction to the EvaluateField component of n
 ![whatsapp image 2019-01-28 at 7 04 21 pm 2](https://user-images.githubusercontent.com/21000020/51989933-029b8c00-2476-11e9-95b1-1f91afcf959e.jpeg)
 ![whatsapp image 2019-01-28 at 7 15 03 pm](https://user-images.githubusercontent.com/21000020/51989935-03342280-2476-11e9-892c-ba065dd2ed1d.jpeg)
 
-#2
+# 2
 This iteration can be found on this same repository by the name of PavilionEvolutionOne.gh
-Here we added some more parameters to be added to our fitness function, the first one was the curvature of the curve, we sample our curve at 7 intervals to get our parameters t, we measure at t the curvature. We compare the curvature to the next curvature in the list and we use our Fitness component to retrieve the absolute value of our difference between distances, if we are in our specified threshold(x >= 1.54 and x <= 3.23) we don't subtract -10000 as penalty.
+Here we added some more parameters to our fitness function of Iteration #1, the first one was the curvature of the curve, we sample our curve at 7 equidistant intervals to get our parameters t, we measure at t the curvature. We compare the curvature to the next curvature in the list and we use our Fitness component to retrieve the absolute value of our difference between distances, if we are in our specified threshold(x >= 1.54 and x <= 3.23) we don't subtract -10000 as penalty.
 
 ![paviliontwoexplain2](https://user-images.githubusercontent.com/21000020/52014550-d69bfd00-24ad-11e9-90e6-c187618e8eaa.JPG)
 
@@ -82,7 +82,8 @@ Here is the floor plan with valleys as red and mountains as blue:
 
 ![paviliontwoexplain1](https://user-images.githubusercontent.com/21000020/52014551-d69bfd00-24ad-11e9-8a7a-fe51322bcae0.JPG)
 
-And the rendered views(rendered in Octane Standalone)
+And the rendered views
+(Rendered in Octane Standalone)
 
 ![renderorigamipavilion3](https://user-images.githubusercontent.com/21000020/52014163-d7805f00-24ac-11e9-933d-325765ff1374.png)
 ![renderorigamipavilion2](https://user-images.githubusercontent.com/21000020/52014164-d7805f00-24ac-11e9-94ff-0ffcf540ed5a.png)
