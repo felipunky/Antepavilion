@@ -20,4 +20,23 @@ For the project we used the visual scripting environment for Rhino, Grasshopper.
 # Fitness function
 As I mentioned earlier, we created a function that produces non-uniform designs from deformations to the grid and their relationships, here is an explanation:
 The fitness algorithm is based on the relations between the length of the cells to each other, we subtract the distances from one another and apply an absolute value operator, every time we exceed the minimum and maximum thresholds, we subtract from the fitness number. The area of each of the faces( when the physics solver has run ) also accounts as a penalty, if it is lower than the threshold specified, we also subtract from the fitness. The fitness value specified is the area of the floor plan that we want. This enables the solver to produce results that are visually appealing. 
-The genomes are the deformations that attractors such as points and nurbs curves produce through the magnitudes and translations that are discretized through sliders, the minimum length of the curve is also part of the fitness function as it forces the heuristic solver to produce more deformation, we constrain the curve, by measuring its curvature and applying the same distances difference mentioned before.
+The genomes are the deformations that attractors such as points and nurbs curves produce through the magnitudes and translations that are discretized through sliders, the minimum length of the curve is also part of the fitness function as it forces the heuristic solver(Galapagos) to produce more deformation, we constrain the curve, by measuring its curvature and applying the same distances difference mentioned before.
+# Iterations
+Through the process we created multiple designs here are some examples:
+(Images rendered with Octane Standalone and some with Redshift for Houdini)
+![whatsapp image 2019-01-28 at 7 04 21 pm 1](https://user-images.githubusercontent.com/21000020/51989931-029b8c00-2476-11e9-8ede-dfe7fe9f9c43.jpeg)
+![whatsapp image 2019-01-28 at 7 04 21 pm 2](https://user-images.githubusercontent.com/21000020/51989933-029b8c00-2476-11e9-95b1-1f91afcf959e.jpeg)
+![whatsapp image 2019-01-28 at 7 04 21 pm](https://user-images.githubusercontent.com/21000020/51989934-029b8c00-2476-11e9-99e2-ab2db01a8a2f.jpeg)
+![whatsapp image 2019-01-28 at 7 15 03 pm](https://user-images.githubusercontent.com/21000020/51989935-03342280-2476-11e9-892c-ba065dd2ed1d.jpeg)
+![renderorigami2](https://user-images.githubusercontent.com/21000020/51989637-78532800-2475-11e9-91b8-94f0f69551a2.png)
+![renderorigamievolution](https://user-images.githubusercontent.com/21000020/51989638-78532800-2475-11e9-9c68-5b8449da8c31.png)
+![renderorigamifinal](https://user-images.githubusercontent.com/21000020/51989639-78532800-2475-11e9-900a-5d50568bcca7.png)
+![renderorigamifinal1](https://user-images.githubusercontent.com/21000020/51989640-78532800-2475-11e9-8824-31013eafcf4f.png)
+![renderorigamifinal2](https://user-images.githubusercontent.com/21000020/51989641-78532800-2475-11e9-9af5-40bd279d8197.png)
+![renderorigamifinal3](https://user-images.githubusercontent.com/21000020/51989642-78532800-2475-11e9-90f5-07dd4d645bb5.png)
+![renderorigamifinal4](https://user-images.githubusercontent.com/21000020/51989643-78ebbe80-2475-11e9-81e1-bd2b30e2580e.png)
+![renderorigamione](https://user-images.githubusercontent.com/21000020/51989645-78ebbe80-2475-11e9-83cc-5c28b2289e38.png)
+![renderorigamithree](https://user-images.githubusercontent.com/21000020/51989646-78ebbe80-2475-11e9-91d0-2c6072137a41.png)
+![renderorigamitwo](https://user-images.githubusercontent.com/21000020/51989650-79845500-2475-11e9-9561-d3c0bfda7956.png)
+![renderorigami1](https://user-images.githubusercontent.com/21000020/51989651-79845500-2475-11e9-8337-ca09bd75e03d.png)
+
