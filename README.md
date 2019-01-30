@@ -30,8 +30,10 @@ Through the process we created multiple designs here are some examples:
 (Images rendered with Octane Standalone and some with Redshift for Houdini)
 ![whatsapp image 2019-01-28 at 7 04 21 pm 1](https://user-images.githubusercontent.com/21000020/51989931-029b8c00-2476-11e9-8ede-dfe7fe9f9c43.jpeg)
 ![whatsapp image 2019-01-28 at 7 04 21 pm 2](https://user-images.githubusercontent.com/21000020/51989933-029b8c00-2476-11e9-95b1-1f91afcf959e.jpeg)
-![whatsapp image 2019-01-28 at 7 04 21 pm](https://user-images.githubusercontent.com/21000020/51989934-029b8c00-2476-11e9-99e2-ab2db01a8a2f.jpeg)
 ![whatsapp image 2019-01-28 at 7 15 03 pm](https://user-images.githubusercontent.com/21000020/51989935-03342280-2476-11e9-892c-ba065dd2ed1d.jpeg)
+
+This is the 2D floor plan before the origami folding:
+![paviliononefloorplan](https://user-images.githubusercontent.com/21000020/51990869-e993da80-2477-11e9-9027-17ac858389d4.JPG)
 ![renderorigami2](https://user-images.githubusercontent.com/21000020/51989637-78532800-2475-11e9-91b8-94f0f69551a2.png)
 ![renderorigamievolution](https://user-images.githubusercontent.com/21000020/51989638-78532800-2475-11e9-9c68-5b8449da8c31.png)
 ![renderorigamifinal](https://user-images.githubusercontent.com/21000020/51989639-78532800-2475-11e9-900a-5d50568bcca7.png)
