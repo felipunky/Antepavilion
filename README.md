@@ -3,6 +3,10 @@ Repository that contains a WIP for the [Antepavilion 2019 Commission](http://ant
 # Inspiration
 We have been working on the computational design of the pavilion based on the work done by [Tomohiro Tachi](http://www.tsg.ne.jp/TT/)
 ![tachiinspiration](https://user-images.githubusercontent.com/21000020/51937630-1a710280-23d9-11e9-868e-15a2f83564ca.JPG)
+![4115805713_f9bd253432_o](https://user-images.githubusercontent.com/21000020/51990496-24494300-2477-11e9-8141-68683ca12bb2.jpg)
+![4115805815_8ff71a24e4_o](https://user-images.githubusercontent.com/21000020/51990497-24494300-2477-11e9-82eb-4e56050a1e57.jpg)
+![4115805159_af0db68fbd_o](https://user-images.githubusercontent.com/21000020/51990498-24494300-2477-11e9-9c79-ef02929f84d2.jpg)
+![4116574802_3f3e2dfd46_o](https://user-images.githubusercontent.com/21000020/51990499-24494300-2477-11e9-8f7b-a33d7066764f.jpg)
 
 Our research lead us to create from a grid of points a discretized pattern that resembles the one done by Tachi. From the pattern, we could derive what the 2D pattern created in 3D.
 
