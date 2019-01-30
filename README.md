@@ -60,7 +60,7 @@ For our genomes we have a central curve that is modulated by sliders, Galapagos 
 
 ![paviliononeexplanation5](https://user-images.githubusercontent.com/21000020/51994710-5f4f7480-247f-11e9-8c89-efbc9e15d671.JPG)
 
-We connect the output of the CurveAttraction to the EvaluateField component of native Grasshopper, so that we can modify the grid through point attractors, the positions of the attractors are modulated by the evolutionary solver.
+We connect the output of the CurveAttraction to the EvaluateField component of native Grasshopper, so that we can modify the grid through point attractors, the positions and charges of the attractors are modulated by the evolutionary solver.
 
 (Images rendered with Redshift for Houdini)
 ![whatsapp image 2019-01-28 at 7 04 21 pm 1](https://user-images.githubusercontent.com/21000020/51989931-029b8c00-2476-11e9-8ede-dfe7fe9f9c43.jpeg)
