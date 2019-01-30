@@ -26,6 +26,7 @@ As I mentioned earlier, we created a function that produces non-uniform designs 
 The fitness algorithm is based on the relations between the length of the cells to each other, we subtract the distances from one another and apply an absolute value operator, every time we exceed the minimum and maximum thresholds, we subtract from the fitness number. The area of each of the faces( when the physics solver has run ) also accounts as a penalty, if it is lower than the threshold specified, we also subtract from the fitness. The fitness value specified is the area of the floor plan that we want. This enables the solver to produce results that are visually appealing. 
 The genomes are the deformations that attractors such as points and nurbs curves produce through the magnitudes and translations that are discretized through sliders, the minimum length of the curve is also part of the fitness function as it forces the heuristic solver(Galapagos) to produce more deformation, we constrain the curve, by measuring its curvature and applying the same distances difference mentioned before.
 # Iterations
+# 1
 Through the process we created multiple designs here are some examples:
 
 This example can be found in this repository by the name PavilionOne.gh
@@ -67,3 +68,22 @@ We connect the output of the CurveAttraction to the EvaluateField component of n
 ![whatsapp image 2019-01-28 at 7 04 21 pm 2](https://user-images.githubusercontent.com/21000020/51989933-029b8c00-2476-11e9-95b1-1f91afcf959e.jpeg)
 ![whatsapp image 2019-01-28 at 7 15 03 pm](https://user-images.githubusercontent.com/21000020/51989935-03342280-2476-11e9-892c-ba065dd2ed1d.jpeg)
 
+#2
+This iteration can be found on this same repository by the name of PavilionEvolutionOne.gh
+Here we added some more parameters to be added to our fitness function, the first one was the curvature of the curve, we sample our curve at 7 intervals to get our parameters t, we measure at t the curvature. We compare the curvature to the next curvature in the list and we use our Fitness component to retrieve the absolute value of our difference between distances, if we are in our specified threshold(x >= 1.54 and x <= 3.23) we don't subtract -10000 as penalty.
+
+![paviliontwoexplain2](https://user-images.githubusercontent.com/21000020/52014550-d69bfd00-24ad-11e9-90e6-c187618e8eaa.JPG)
+
+We also measure the sign of the z component of the normal of the mesh after the origami simulation, if it is smaller than zero, we penalize by -10000.
+
+![paviliontwoexplain3](https://user-images.githubusercontent.com/21000020/52014552-d69bfd00-24ad-11e9-9c0a-a528ed8aec94.JPG)
+
+Here is the floor plan with valleys as red and mountains as blue:
+
+![paviliontwoexplain1](https://user-images.githubusercontent.com/21000020/52014551-d69bfd00-24ad-11e9-8a7a-fe51322bcae0.JPG)
+
+And the rendered views(rendered in Octane Standalone)
+
+![renderorigamipavilion3](https://user-images.githubusercontent.com/21000020/52014163-d7805f00-24ac-11e9-933d-325765ff1374.png)
+![renderorigamipavilion2](https://user-images.githubusercontent.com/21000020/52014164-d7805f00-24ac-11e9-94ff-0ffcf540ed5a.png)
+![renderorigamipavilion1](https://user-images.githubusercontent.com/21000020/52014166-d7805f00-24ac-11e9-8b0e-a96e87339daf.png)
