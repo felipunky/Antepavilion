@@ -50,6 +50,12 @@ To force the genomes to create a curve(used as an attractor) that created more v
 
 ![paviliononeexplanation3](https://user-images.githubusercontent.com/21000020/51993932-c5d39300-247d-11e9-8fee-48fb3502ff12.JPG)
 
+And for our last part of the fitness function, we took the area of the mesh in floor plan
+
+![paviliononeexplanation4](https://user-images.githubusercontent.com/21000020/51994500-e9e3a400-247e-11e9-84fc-ec3f87a2f899.JPG)
+
+This last step is really important as this is the number we will try to aproximate with the heuristic solver, in this case it was 1000.
+
 (Images rendered with Redshift for Houdini)
 ![whatsapp image 2019-01-28 at 7 04 21 pm 1](https://user-images.githubusercontent.com/21000020/51989931-029b8c00-2476-11e9-8ede-dfe7fe9f9c43.jpeg)
 ![whatsapp image 2019-01-28 at 7 04 21 pm 2](https://user-images.githubusercontent.com/21000020/51989933-029b8c00-2476-11e9-95b1-1f91afcf959e.jpeg)
