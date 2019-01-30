@@ -36,6 +36,14 @@ In this iteration, we used the distances between the border branches to the cent
 
 ![paviliononeexplanation](https://user-images.githubusercontent.com/21000020/51992643-61173900-247b-11e9-891d-bf4ddb9d1c0b.JPG)
 
+We also compared the difference between the distances of the central "spine" points
+
+![paviliononeexplanation1](https://user-images.githubusercontent.com/21000020/51993394-c28bd780-247c-11e9-8954-7db7ce348572.JPG)
+
+The minimum area of each of the faces was also taken into account, if it was lower than 23.6, we penalized the counter.
+
+![paviliononeexplanation2](https://user-images.githubusercontent.com/21000020/51993659-480f8780-247d-11e9-818a-232eb337689d.JPG)
+
 (Images rendered with Redshift for Houdini)
 ![whatsapp image 2019-01-28 at 7 04 21 pm 1](https://user-images.githubusercontent.com/21000020/51989931-029b8c00-2476-11e9-8ede-dfe7fe9f9c43.jpeg)
 ![whatsapp image 2019-01-28 at 7 04 21 pm 2](https://user-images.githubusercontent.com/21000020/51989933-029b8c00-2476-11e9-95b1-1f91afcf959e.jpeg)
