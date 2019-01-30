@@ -56,6 +56,12 @@ And for our last part of the fitness function, we took the area of the mesh in f
 
 This last step is really important as this is the number we will try to aproximate with the heuristic solver, in this case it was 1000.
 
+For our genomes we have a central curve that is modulated by sliders, Galapagos controls the x and y translations of the points that compose the NURBS curve. This curve is connected to the CurveAttraction component from the Paneling Tools plugin, to create a deformation of the grid, the magnitude of the deformation is also a genome.
+
+![paviliononeexplanation5](https://user-images.githubusercontent.com/21000020/51994710-5f4f7480-247f-11e9-8c89-efbc9e15d671.JPG)
+
+We connect the output of the CurveAttraction to the EvaluateField component of native Grasshopper, so that we can modify the grid through point attractors, the positions of the attractors are modulated by the evolutionary solver.
+
 (Images rendered with Redshift for Houdini)
 ![whatsapp image 2019-01-28 at 7 04 21 pm 1](https://user-images.githubusercontent.com/21000020/51989931-029b8c00-2476-11e9-8ede-dfe7fe9f9c43.jpeg)
 ![whatsapp image 2019-01-28 at 7 04 21 pm 2](https://user-images.githubusercontent.com/21000020/51989933-029b8c00-2476-11e9-95b1-1f91afcf959e.jpeg)
